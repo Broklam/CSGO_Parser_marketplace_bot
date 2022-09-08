@@ -7,7 +7,7 @@ from aiogram.utils.markdown import hbold, hlink
 from parser import data_collect
 import time
 
-token = '5575168151:AAFN-nVl90vzfqCceIbVJ3uxzxRbhfRVVY8'
+token = 'TOKEN'
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dispatcher = Dispatcher(bot)
 
